@@ -36,6 +36,7 @@
     border-color: yellow;
     border-style: solid; */
     background: linear-gradient(45deg, pink, rgba(122, 122, 244), tomato);
+    padding: 60px;
 }
 .article h2, #cow-type h2{
     text-align: center;
@@ -61,10 +62,10 @@
     display: flex;
     flex-direction: row;
     gap: 20px;
-    justify-content: space-around;
+    /* justify-content: space-evenly; */
 }
 .cow-images div{
-    min-width: 300px;
+    min-width: 200px;
 }
 .cow-images img{
     width: 100%;
