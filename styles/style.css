@@ -10,6 +10,7 @@
     background-size: cover;
     background-position: bottom center;
     height: 100vh;
+    clip-path: polygon(0 0, 100% 0, 100% 83%, 46% 100%, 46% 100%,)
 }
 .hero h1{
     color: azure;
@@ -22,20 +23,21 @@
     padding-top: 60px;
 
 }
-.article{
+.article ,#cow-type{
     width: 80%;
     /* margin-left: auto;
     margin-right: auto; */
-    background-color: aqua;
+    /* background-color: aqua; */
     /* margin-top: 60px;
     margin-bottom: 60px; */
     margin: 60px auto;
-    padding: 60px;
+    /* padding: 60px;
     border-width: 15px;
     border-color: yellow;
-    border-style: solid;
+    border-style: solid; */
+    background: linear-gradient(45deg, pink, rgba(122, 122, 244), tomato);
 }
-.article h2{
+.article h2, #cow-type h2{
     text-align: center;
     font-size: 48px;
     border-style: solid;
@@ -54,4 +56,16 @@
 .article p .imp{
     font-size: 2em;
     background-color: antiquewhite;
+}
+.cow-images{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-around;
+}
+.cow-images div{
+    min-width: 300px;
+}
+.cow-images img{
+    width: 100%;
 }
